@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url(robot\ 1.jpg); /* Replace with your background image */
+                background-color: #2c2c2c; /* Darkish background color */
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+                color: #f4f4f4; /* Readable text color */
+            }
+            .logo {
+                margin-bottom: 20px;
+                opacity: 1; /* Full opacity for the logo */
+            }
+            .logo img {
+                max-width: 300px;
+                height: auto;
+            }
+            p {
+                background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent light background */
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin: 20px auto;
+                max-width: 600px;
+                text-align: left;
+                color: #333; /* Readable text color */
+            }
+            a {
+                display: inline-block;
+                color: #f9fcff;
+                text-decoration: none;
+                font-weight: bold;
+                margin-top: 20px;
+                padding: 10px 20px;                
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            a:hover {
+                color: #ff0808;
+            }
+            button {
+                background-color: #007bff;
+                color: white;
+                font-size: large;
+                font-weight: bold;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 20px;
+            }
+            button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+        <script>
+            function displayMessage() {
+                alert("Get account number from the generated account page and deposit the minimum amount to activate your account.");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="logo.png" alt="Logo"> <!-- Replace with your logo image -->
+        </div>
+        <p>ACTIVATE YOUR ACCOUNT TO ACCESS YOUR BONUS.<br>
+            CLICK "DEPOSIT" BELOW TO ADD FUNDS INTO YOUR ACCOUNT: <br>
+            {Minimum Deposit: $4}</p>
+        <p>
+            T.ID: ZIQ391BAKW9Q <br>
+            AVAILABLE LIMIT: $43.00 <br>
+            AMOUNT WITHDRAWN: $0.00 <br>
+            BONUS BALANCE: $43.00 <br>
+            <button onclick="displayMessage()"><a href="generateaiaccount.html">Deposit</a></button>
+        </p>
+    </body>
+</html>
